@@ -45,7 +45,7 @@ Run Pytest
 
 Run Pyright
 
-(Optionally) Build Docker image
+ ## ✅Build Docker image
 
 🧪 Run Locally
 python app/main.py
@@ -54,7 +54,8 @@ npx pyright
 📦 Build & Run Docker
 docker build -t devops-sample-app:v1 .
 docker run --rm devops-sample-app:v1
-7.
+7.push the code on github
+
 git add .
 git commit -m "Initial commit"
 git branch -M main
